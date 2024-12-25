@@ -1,0 +1,29 @@
+{
+  "app": "genai-chatbot",
+  "envName": "dev",
+  "hostedZoneId": "",
+  "hostedZoneName": "",
+  "customDomainName": "",
+  "providers": {
+    "bedrock": {
+      "enabled": true,
+      "models": ["anthropic.claude-3-sonnet-20240229-v1:0"]
+    }
+  },
+  "websiteInVPC": false,
+  "kendra": {
+    "enabled": false
+  },
+  "aurora": {
+    "enabled": false
+  },
+  "opensearch": {
+    "enabled": false
+  },
+  "sagemaker": {
+    "enabled": false
+  },
+  "embeddings": {
+    "available": ["amazon.titan-embed-text-v1"]
+  }
+}
