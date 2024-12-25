@@ -1,9 +1,6 @@
 {
   "app": "genai-chatbot",
   "envName": "dev",
-  "hostedZoneId": "",
-  "hostedZoneName": "",
-  "customDomainName": "",
   "providers": {
     "bedrock": {
       "enabled": true,
